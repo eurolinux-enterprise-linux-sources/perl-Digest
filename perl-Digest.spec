@@ -1,6 +1,6 @@
 Name:           perl-Digest
 Version:        1.17
-Release:        244%{?dist}
+Release:        245%{?dist}
 Summary:        Modules that calculate message digests
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -47,6 +47,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.17-245
+- Mass rebuild 2013-12-27
+
 * Fri May 03 2013 Petr Pisar <ppisar@redhat.com> - 1.17-244
 - Increase release number to supersede perl sub-package (bug #957931)
 
